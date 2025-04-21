@@ -1,0 +1,27 @@
+Data table:
+
+order {
+    user-id     // seller
+    item-name
+    item-description
+    price
+    category
+    condition
+    location
+    date_posted
+    status
+    item-image
+}
+
+user {
+    user-id
+    first-name
+    last-name
+    password      // (hash)
+    location
+    profile-image
+    date-joined
+    college      // for location based search 
+}
+
+mongodb
